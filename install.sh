@@ -29,18 +29,16 @@ apt-get update -qq
 apt-get install -qy libgdiplus libmono-cil-dev nzbdrone
 apt-get install python-pip -y
 apt-get install ffmpeg
-curl https://bootstrap.pypa.io/ez_setup.py -O
-python3.4 ez_setup.py
-pip install requests 
-pip install requests[security] 
-pip install requests-cache 
-pip install babelfish 
-pip install "guessit<2"
-pip install subliminal
-pip install deluge-client
-pip install qtfaststart
-
-
+# curl https://bootstrap.pypa.io/ez_setup.py -O
+# python3.4 ez_setup.py
+# pip install requests 
+# pip install requests[security] 
+# pip install requests-cache 
+# pip install babelfish 
+# pip install "guessit<2"
+# pip install subliminal
+# pip install deluge-client
+# pip install qtfaststart
 
 #########################################
 ##             INSTALLATION            ##
