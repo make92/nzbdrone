@@ -28,7 +28,7 @@ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys FDA5DFFC
 apt-get update -qq
 apt-get install -qy libgdiplus libmono-cil-dev nzbdrone
 apt-get install python-pip -y
-apt-get install ffmpeg
+apt-get install ffmpeg -y
 # curl https://bootstrap.pypa.io/ez_setup.py -O
 # python3.4 ez_setup.py
 # pip install requests 
